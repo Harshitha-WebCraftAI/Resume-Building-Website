@@ -55,4 +55,70 @@ harshith-portfolio/
 ├── main.js                 # Three.js scene, robot, camera, scroll logic
 ├── Harshith_Resume.pdf    # Downloadable resume (linked from hero button)
 └── README.md               # Project documentation (this file)
-```
+---
+
+## 🛠️ Setup & Deployment Guide
+
+This section explains how to run this portfolio locally on your machine, and how to deploy it to the internet for free.
+
+---
+
+### 🖥️ Part 1: Run Locally (VS Code + Live Server)
+
+The easiest way — no terminal, no npm, no build tools.
+
+**Prerequisites:** [Visual Studio Code](https://code.visualstudio.com/) installed.
+
+**Steps:**
+
+1. **Install the Live Server extension**
+   - Open VS Code
+   - Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac)
+   - Search for **"Live Server"** by *Ritwick Dey*
+   - Click **Install**
+
+2. **Open the project folder**
+   - In VS Code: **File → Open Folder → harshitha-portfolio**
+
+3. **Launch the site**
+   - Right-click **`index.html`** in the file list
+   - Click **"Open with Live Server"**
+   - Browser opens at **`http://127.0.0.1:5500`** ✅
+
+**To stop the server:** Click **Port: 5500** in the VS Code status bar → click Stop.
+
+> ⚠️ **Do not double-click `index.html`.** It won't work due to browser security restrictions on ES modules. Always use Live Server.
+
+---
+
+### 🌐 Part 2: Deploy for Free (Netlify Drop)
+
+Get a public URL in 60 seconds — no account required to start.
+
+**Steps:**
+
+1. **Go to** 👉 [https://app.netlify.com/drop](https://app.netlify.com/drop)
+
+2. **Drag your entire `harshitha-portfolio` folder** onto the page
+   - Do **NOT** zip it first
+   - Do **NOT** drag individual files — drag the whole folder
+
+3. **Wait ~10 seconds** — you'll see: ✅ *"Your site is deployed"*
+
+4. **Copy your live URL** — it looks like:
+   ```
+   https://random-name-123.netlify.app
+   ```
+
+5. **Claim your site** (to make it permanent):
+   - Click **"Claim your site"**
+   - Sign up with email / Google / GitHub (free)
+   - Go to **Site settings → Change site name**
+   - Rename to e.g. `harshitha-data-engineer`
+   - New URL: `https://harshitha-data-engineer.netlify.app` ✅
+
+**To update later:** Edit files → return to Netlify → drag folder again → live in 10 seconds.
+
+---
+
+

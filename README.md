@@ -221,24 +221,7 @@ Possible future enhancements include:
 
 ---
 
-# 👩‍💻 Author
 
-**Harshith**
-
-💻 Full Stack Developer
-🌐 .NET + Angular
-☁️ Cloud & Web Technologies
-🚀 Building interactive and modern web experiences
-
----
-
-## ⭐ If You Like This Project
-
-If you find this portfolio useful or interesting:
-
-⭐ **Star the repository**
-🍴 **Fork the project**
-🔗 **Share it with others**
 
 ---
 

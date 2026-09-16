@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Harshith | Data Engineer</title>
+<meta name="description" content="Harshitha — Data Engineer skilled in Python, SQL, AWS Cloud, and ETL pipelines." />
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ═══════════ LOADER ═══════════ -->
+<div id="loader">
+  <div class="loader-core"></div>
+  <p>Initialising 3D Experience…</p>
+</div>
+
+<!-- ═══════════ 3D CANVAS (fixed background) ═══════════ -->
+<canvas id="webgl"></canvas>
+
+<!-- ═══════════ SCROLL PROGRESS ═══════════ -->
+<div id="scroll-progress"></div>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav class="navbar navbar-expand-lg fixed-top custom-nav" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-dot"></span> Harshith<span class="accent">.</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════ MAIN CONTENT ═══════════ -->
+<main>
+
+  <!-- ─────── HERO ─────── -->
+  <section id="home" class="section hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="hero-eyebrow reveal">👋 Hello, I'm</p>
+          <h1 class="hero-title reveal">
+            Harshith
+            <span class="gradient-text">Data Engineer</span>
+          </h1>
+          <p class="hero-sub reveal">
+            I build scalable, data-driven solutions with
+            <span class="accent">Python</span>,
+            <span class="accent">SQL</span>, and
+            <span class="accent">AWS Cloud</span>.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-glow">
+              View My Work <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="Harshitha_Resume.pdf" download class="btn btn-outline-glow">
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </div>
+          <div class="hero-socials reveal">
+            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:your.email@example.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+         
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="mouse"><div class="wheel"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── ABOUT ─────── -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">01 — About</p>
+      <h2 class="section-title reveal">Professional Summary</h2>
+
+      <div class="row g-4 mt-4">
+        <div class="col-lg-7">
+          <div class="glass-card reveal">
+            <p class="lead-text">
+              Data Engineer with experience in <span class="accent">Python</span>,
+              <span class="accent">SQL</span>, <span class="accent">AWS Cloud</span>,
+              and database systems. Skilled in SQL query optimization, ETL concepts,
+              data validation, cloud deployment, and analytics.
+            </p>
+            <p class="lead-text">
+              Hands-on experience with AWS services including <span class="accent">EC2</span>,
+              <span class="accent">RDS</span>, <span class="accent">VPC</span>,
+              Security Groups, and Load Balancers. Strong analytical and problem-solving
+              skills with a passion for building scalable, data-driven solutions and
+              transforming data into actionable business insights.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="glass-card reveal">
+            <h5 class="card-heading">Quick Facts</h5>
+            <ul class="facts-list">
+              <li><i class="bi bi-geo-alt-fill"></i> Andhra Pradesh, India</li>
+              <li><i class="bi bi-briefcase-fill"></i> Software Engineer @ XYZ</li>
+              <li><i class="bi bi-mortarboard-fill"></i> B.Tech CSE · CGPA 8.56</li>
+              <li><i class="bi bi-patch-check-fill"></i> Azure AZ-900 Certified</li>
+              <li><i class="bi bi-trophy-fill"></i> 200+ Coding Problems Solved</li>
+              <li><i class="bi bi-translate"></i> English · Telugu · Hindi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── SKILLS ─────── -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">02 — Skills</p>
+      <h2 class="section-title reveal">Technical Arsenal</h2>
+
+      <div class="row g-4 mt-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+            <h5>Languages</h5>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">SQL</span>
+              <span class="chip">C</span><span class="chip">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-diagram-3-fill"></i></div>
+            <h5>Data Engineering</h5>
+            <div class="chips">
+              <span class="chip">ETL Pipelines</span><span class="chip">Data Modeling</span>
+              <span class="chip">Data Warehousing</span><span class="chip">Transformation</span>
+              <span class="chip">Data Validation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-hdd-stack-fill"></i></div>
+            <h5>Big Data</h5>
+            <div class="chips">
+              <span class="chip">Apache Spark</span><span class="chip">PySpark</span>
+              <span class="chip">Hadoop</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-cloud-fill"></i></div>
+            <h5>Cloud Platforms</h5>
+            <div class="chips">
+              <span class="chip">AWS EC2</span><span class="chip">AWS RDS</span>
+              <span class="chip">AWS VPC</span><span class="chip">Load Balancer</span>
+              <span class="chip">Security Groups</span><span class="chip">Azure AZ-900</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-database-fill"></i></div>
+            <h5>Databases</h5>
+            <div class="chips">
+              <span class="chip">MySQL</span><span class="chip">SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon"><i class="bi bi-tools"></i></div>
+            <h5>Tools & Concepts</h5>
+            <div class="chips">
+              <span class="chip">Git</span><span class="chip">GitHub</span>
+              <span class="chip">Linux</span><span class="chip">Postman</span>
+              <span class="chip">VS Code</span><span class="chip">OOP</span>
+              <span class="chip">Agile</span><span class="chip">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── EXPERIENCE ─────── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">03 — Experience</p>
+      <h2 class="section-title reveal">Where I've Worked</h2>
+
+      <div class="timeline mt-5">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-head">
+              <div>
+                <h4>Software Engineer</h4>
+                <p class="company">XYZ Technology Solutions</p>
+              </div>
+              <span class="period">Jul 2025 – Present</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Worked extensively with relational databases, SQL queries, and data processing workflows supporting enterprise applications.</li>
+              <li>Developed and optimized SQL queries for efficient data extraction, transformation, reporting, and analysis.</li>
+              <li>Performed data validation, troubleshooting, and quality checks to ensure consistency and integrity across systems.</li>
+              <li>Utilized Python and SQL for automation, reporting, and data manipulation activities.</li>
+              <li>Collaborated with business and technical stakeholders to deliver scalable, data-driven solutions.</li>
+              <li>Participated in Agile development processes including sprint planning, code reviews, testing, and deployment.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── PROJECTS ─────── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">04 — Projects</p>
+      <h2 class="section-title reveal">Things I've Built</h2>
+
+      <div class="row g-4 mt-4">
+
+        <div class="col-lg-6">
+          <div class="glass-card project-card reveal">
+            <div class="project-head">
+              <i class="bi bi-cloud-arrow-up-fill project-icon"></i>
+              <span class="project-tag">AWS · Cloud</span>
+            </div>
+            <h4>Food Ordering Application on AWS</h4>
+            <p>Designed and deployed a cloud-based food ordering app on AWS. Configured EC2 instances for hosting, MySQL on RDS for customer/order/transaction data, VPC + Security Groups for secure networking, and an Application Load Balancer with Target Groups for high availability. Validated end-to-end order processing workflows.</p>
+            <div class="chips mt-3">
+              <span class="chip">AWS EC2</span><span class="chip">RDS</span>
+              <span class="chip">VPC</span><span class="chip">ALB</span>
+              <span class="chip">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="glass-card project-card reveal">
+            <div class="project-head">
+              <i class="bi bi-chat-heart-fill project-icon"></i>
+              <span class="project-tag">NLP · ML</span>
+            </div>
+            <h4>Depression Relief Motivational Chatbot</h4>
+            <p>Built an LSTM-based NLP chatbot for sentiment analysis and real-time motivational response generation. Implemented conversation history tracking and an interactive user experience using Streamlit.</p>
+            <div class="chips mt-3">
+              <span class="chip">Python</span><span class="chip">TensorFlow</span>
+              <span class="chip">LSTM</span><span class="chip">Streamlit</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="glass-card project-card reveal">
+            <div class="project-head">
+              <i class="bi bi-person-bounding-box project-icon"></i>
+              <span class="project-tag">Computer Vision</span>
+            </div>
+            <h4>Face Recognition Attendance System</h4>
+            <p>Developed a real-time face recognition system for automated attendance management. Integrated MySQL database for attendance storage and notification functionality.</p>
+            <div class="chips mt-3">
+              <span class="chip">Python</span><span class="chip">OpenCV</span>
+              <span class="chip">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="glass-card project-card reveal">
+            <div class="project-head">
+              <i class="bi bi-database-gear project-icon"></i>
+              <span class="project-tag">Data Engineering</span>
+            </div>
+            <h4>Enterprise SQL & ETL Optimization</h4>
+            <p>At Cognizant, optimized SQL queries and built data validation workflows that support enterprise-scale reporting, improving query efficiency and ensuring data integrity across systems.</p>
+            <div class="chips mt-3">
+              <span class="chip">SQL</span><span class="chip">ETL</span>
+              <span class="chip">Python</span><span class="chip">Data Validation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── EDUCATION ─────── -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">05 — Education</p>
+      <h2 class="section-title reveal">Academic Background</h2>
+
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <div class="glass-card edu-card reveal">
+            <i class="bi bi-mortarboard-fill edu-icon"></i>
+            <h5>B.Tech — Computer Science</h5>
+            <p class="edu-inst">University of Technologies</p>
+            <div class="edu-meta">
+              <span>2021 – 2025</span>
+              <span class="cgpa">CGPA 8.56 / 10</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="glass-card edu-card reveal">
+            <i class="bi bi-book-fill edu-icon"></i>
+            <h5>Pre-University (MPC)</h5>
+            <p class="edu-inst"> RKV Technologies University</p>
+            <div class="edu-meta">
+              <span>2019 – 2021</span>
+              <span class="cgpa">CGPA 9.7 / 10</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="glass-card edu-card reveal">
+            <i class="bi bi-award-fill edu-icon"></i>
+            <h5>Secondary School</h5>
+            <p class="edu-inst">Vasavi  School, Andhra Pradesh</p>
+            <div class="edu-meta">
+              <span>2018 – 2019</span>
+              <span class="cgpa">CGPA 10.0 / 10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <p class="section-eyebrow reveal mt-5">06 — Certifications & Achievements</p>
+      <h2 class="section-title reveal">Milestones</h2>
+
+      <div class="row g-3 mt-4">
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-patch-check-fill"></i><div><strong>Microsoft Azure Fundamentals</strong><span>AZ-900</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-github"></i><div><strong>GitHub Copilot Certification</strong><span>GitHub</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-code-square"></i><div><strong>Certified .NET Prompt Developer</strong><span>Cognizant</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-trophy-fill"></i><div><strong>HackerRank Python — Gold</strong><span>HackerRank</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-trophy-fill"></i><div><strong>HackerRank SQL — Gold</strong><span>HackerRank</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-journal-code"></i><div><strong>Python Programming Certification</strong><span>Coding Ninjas</span></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="glass-card cert-card reveal"><i class="bi bi-lightning-charge-fill"></i><div><strong>200+ Coding Problems Solved</strong><span>Python · SQL · DSA</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── CONTACT ─────── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">07 — Contact</p>
+      <h2 class="section-title reveal">Let's Build Something Data-Driven</h2>
+
+      <div class="row g-4 mt-4">
+        <div class="col-lg-5">
+          <div class="glass-card reveal">
+            <h5 class="card-heading">Get in Touch</h5>
+            <p class="muted">Open to Data Engineering, Cloud, and Analytics roles. Drop a message — I'll respond soon.</p>
+            <ul class="contact-list">
+              <li><i class="bi bi-envelope-fill"></i> your.email@example.com</li>
+              <li><i class="bi bi-geo-alt-fill"></i> Andhra Pradesh, India</li>
+              <li><i class="bi bi-linkedin"></i> linkedin.com/</li>
+              <li><i class="bi bi-github"></i> github.com/</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="glass-card reveal">
+            <!-- Replace YOUR_EMAIL_HERE with your actual email -->
+            <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="contact-form">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New message from portfolio">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label>Name</label>
+                  <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                  <label>Email</label>
+                  <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="col-12">
+                  <label>Message</label>
+                  <textarea name="message" rows="4" class="form-control" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-glow w-100">
+                    Send Message <i class="bi bi-send-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────── FOOTER ─────── -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p>Designed & Built by <span class="accent">Harshith</span> · 2025</p>
+      <p class="muted small">HTML · CSS · Bootstrap · Three.js</p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ═══════════ IMPORTS ═══════════ -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

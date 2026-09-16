@@ -110,15 +110,4 @@ Get a public URL in 60 seconds — no account required to start.
    https://random-name-123.netlify.app
    ```
 
-5. **Claim your site** (to make it permanent):
-   - Click **"Claim your site"**
-   - Sign up with email / Google / GitHub (free)
-   - Go to **Site settings → Change site name**
-   - Rename to e.g. `harshitha-data-engineer`
-   - New URL: `https://harshitha-data-engineer.netlify.app` ✅
-
-**To update later:** Edit files → return to Netlify → drag folder again → live in 10 seconds.
-
----
-
 

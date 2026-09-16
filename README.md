@@ -205,19 +205,6 @@ The portfolio contains sections designed to showcase professional experience and
 
 ---
 
-# 🚀 Future Improvements
-
-Possible future enhancements include:
-
-* 🌐 Custom domain integration
-* 🌙 Light/Dark theme switching
-* 🧠 AI-powered portfolio assistant
-* 📊 Interactive project analytics
-* 🎨 More 3D animations
-* 📱 Further mobile optimization
-* 🔗 GitHub API integration
-* 📄 Online resume preview
-* ✉️ Improved contact form backend
 
 ---
 
